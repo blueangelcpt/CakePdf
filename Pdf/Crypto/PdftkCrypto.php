@@ -9,7 +9,7 @@ class PdftkCrypto extends AbstractPdfCrypto {
  * @access protected
  * @var string
  */
-	protected $binary = '/usr/local/bin/pdftk';
+	protected $binary = '/usr/bin/pdftk';
 
 /**
  * Mapping of the CakePdf permissions to the Pdftk arguments
